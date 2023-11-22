@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #262424;
+}
+
+.logo {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.cadastro {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.cadastro-nome {
+  display: flex;
+  flex-direction: row;
+  gap: 130px;
+}
+.input-name {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nome {
+  width: 513px;
+  height: 54px;
+  border-radius: 10px;
+}
+
+p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: #555353;
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 16px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.email {
+  width: 850px;
+  height: 54px;
+  border-radius: 10px;
+}
+
+.input-email {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cadastro-senha {
+  display: flex;
+  flex-direction: row;
+  gap: 130px;
+}
+
+.senha {
+  width: 513px;
+  height: 54px;
+  border-radius: 10px;
+}
+
+.input-senha {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  background: #00ff7a;
+  width: 180px;
+  height: 70px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #aed8c2;
+  transition: 0.7s;
+}
